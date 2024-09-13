@@ -1,0 +1,29 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: solid rgb(244, 167, 194) 1px;
+}
+
+/*container*/
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  width: calc(100% - 64px);
+
+}
+
+header a{
+  display: block;
+  margin: 32px 0;
+
+  width:168px;
+  height:48px;
+}
+
+/*footer*/
+footer{
+  text-align:center;
+  padding:32px;
+}
